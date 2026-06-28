@@ -113,7 +113,6 @@ a {
   transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 }
 
-/* hover: background turns white, text turns red (per wireframe) */
 .main-nav a:hover {
   background: var(--white);
   color: var(--red-deep);
@@ -425,12 +424,12 @@ section {
   transition: top 0.1s linear;
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.4));
   cursor: grab;
-  touch-action: none; /* let us handle drag on touch devices */
+  touch-action: none; 
 }
 
 .scroll-track .plane.dragging {
   cursor: grabbing;
-  transition: none; /* follow the pointer instantly while dragging */
+  transition: none; 
 }
 
 .scroll-track .plane img {
